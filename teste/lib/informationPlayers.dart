@@ -129,7 +129,7 @@ class PlayerDetailPage extends StatelessWidget {
                   ),
                   const Padding(padding: EdgeInsets.all(5.0)),
                   Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    mainAxisAlignment: MainAxisAlignment.start,
                     children: teams.map((team) {
                       return SizedBox(
                         height: 65,
