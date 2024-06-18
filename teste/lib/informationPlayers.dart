@@ -128,8 +128,9 @@ class PlayerDetailPage extends StatelessWidget {
                     ),
                   ),
                   const Padding(padding: EdgeInsets.all(5.0)),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.start,
+                  Wrap(
+                    spacing: 0.5,
+                    runSpacing: 5.0, 
                     children: teams.map((team) {
                       return SizedBox(
                         height: 65,
@@ -153,13 +154,14 @@ class PlayerDetailPage extends StatelessWidget {
                     ],
                   ),
                   const Padding(padding: EdgeInsets.all(5.0)),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: imagemTrofeu.map((imagemTrofeu) {
+                  Wrap(
+                    spacing: 8.0,
+                    runSpacing: 8.0, 
+                    children: imagemTrofeu.map((imagem) {
                       return SizedBox(
                         height: 65,
                         width: 45,
-                        child: Image.asset(imagemTrofeu),
+                        child: Image.asset(imagem),
                       );
                     }).toList(),
                   ),

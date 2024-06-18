@@ -47,7 +47,7 @@ class HomePage extends StatelessWidget {
                          'assets/imagemTimes/escudoInternacional.png','assets/imagemTimes/escudoPalmeiras.png'],
                           numTrofeus: '7x', imagemTrofeu: ['assets/imagemTrofeu/trofeuJogador.png', 'assets/imagemTrofeu/trofeuJogador.png',
                            'assets/imagemTrofeu/trofeuJogador.png', 'assets/imagemTrofeu/trofeuJogador.png', 'assets/imagemTrofeu/trofeuJogador.png', 
-                           'assets/imagemTrofeu/trofeuJogador.png'],
+                           'assets/imagemTrofeu/trofeuJogador.png', 'assets/imagemTrofeu/trofeuJogador.png',],
 
                     ),
               players(
